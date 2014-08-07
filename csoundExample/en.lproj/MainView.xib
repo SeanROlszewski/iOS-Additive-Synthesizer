@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="amplitudeSlider_0" destination="225" id="WYk-FR-ALf"/>
+                <outlet property="amplitudeSlider_1" destination="36" id="Dud-nx-6Hw"/>
+                <outlet property="amplitudeSlider_10" destination="104" id="JWB-KN-05Q"/>
+                <outlet property="amplitudeSlider_2" destination="71" id="Kup-m5-D06"/>
+                <outlet property="amplitudeSlider_3" destination="76" id="2vD-8A-ubW"/>
+                <outlet property="amplitudeSlider_4" destination="80" id="Kvz-ZK-NaN"/>
+                <outlet property="amplitudeSlider_5" destination="84" id="URY-Lm-C2Y"/>
+                <outlet property="amplitudeSlider_6" destination="88" id="05B-nb-jfW"/>
+                <outlet property="amplitudeSlider_7" destination="92" id="Ick-hr-Cry"/>
+                <outlet property="amplitudeSlider_8" destination="96" id="b3n-vW-utz"/>
+                <outlet property="amplitudeSlider_9" destination="100" id="jCc-qw-DMW"/>
+                <outlet property="frequencySlider" destination="20" id="OAU-hZ-bdo"/>
+                <outlet property="masterGain" destination="603" id="KGd-PW-p0m"/>
+                <outlet property="onOffSwitch" destination="4" id="17"/>
+                <outlet property="reverbDamping" destination="551" id="KE6-Ig-bOa"/>
+                <outlet property="reverbDensity" destination="595" id="Af8-r2-gcS"/>
+                <outlet property="reverbMix" destination="600" id="OfQ-OF-uL2"/>
+                <outlet property="reverbToggle" destination="467" id="9Yq-2v-IVe"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <userGuides>
+                <userLayoutGuide location="5" affinity="minY"/>
+            </userGuides>
+            <subviews>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="4">
+                    <rect key="frame" x="20" y="45" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.92549026012420654" green="0.729411780834198" blue="0.61568629741668701" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="onTintColor" red="0.83137261867523193" green="0.92941182851791382" blue="0.66274511814117432" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <action selector="toggleOnOff:" destination="-1" eventType="valueChanged" id="12"/>
+                    </connections>
+                </switch>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="150" minValue="60" maxValue="500" id="20">
+                    <rect key="frame" x="116" y="205" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.72156864404678345" green="0.66274511814117432" blue="0.086274512112140656" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="36">
+                    <rect key="frame" x="116" y="314" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.56862747669219971" green="0.65490198135375977" blue="0.086274512112140656" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="71">
+                    <rect key="frame" x="116" y="344" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.67843139171600342" green="0.92941182851791382" blue="0.92549026012420654" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="76">
+                    <rect key="frame" x="116" y="374" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.729411780834198" green="0.91372555494308472" blue="0.54117649793624878" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="80">
+                    <rect key="frame" x="116" y="404" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.90588241815567017" green="0.91372555494308472" blue="0.29019609093666077" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="84">
+                    <rect key="frame" x="116" y="434" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.88235300779342651" green="0.7450980544090271" blue="0.054901964962482452" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="88">
+                    <rect key="frame" x="116" y="464" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.93725496530532837" green="0.70588237047195435" blue="0.035294119268655777" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="92">
+                    <rect key="frame" x="116" y="494" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.84313732385635376" green="0.95686280727386475" blue="0.94509810209274292" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="96">
+                    <rect key="frame" x="116" y="522" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.68627452850341797" green="0.91372555494308472" blue="0.52549022436141968" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="100">
+                    <rect key="frame" x="116" y="552" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.48627454042434692" green="0.61568629741668701" blue="0.91372555494308472" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" id="104">
+                    <rect key="frame" x="116" y="582" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.85098046064376831" green="0.9490196704864502" blue="0.7882353663444519" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <slider opaque="NO" alpha="0.64999999999999969" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.29999999999999999" minValue="0.0" maxValue="0.29999999999999999" id="225">
+                    <rect key="frame" x="116" y="169" width="536" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.91372555494308472" green="0.76862752437591553" blue="0.49803924560546875" alpha="1" colorSpace="deviceRGB"/>
+                </slider>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="231">
+                    <rect key="frame" x="667" y="208" width="81" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Pitch">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="235">
+                    <rect key="frame" x="668" y="170" width="120" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Strength">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="16" name="Inkpen2ScriptStd"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="247">
+                    <rect key="frame" x="20" y="140" width="215" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Fundamental">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="25" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="257">
+                    <rect key="frame" x="77" y="51" width="52" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="On/Off">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="467">
+                    <rect key="frame" x="20" y="720" width="51" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" red="0.92549026010000002" green="0.72941178080000002" blue="0.61568629740000003" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="onTintColor" red="0.83137261870000001" green="0.92941182850000004" blue="0.66274511810000003" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <action selector="toggleReverb:" destination="-1" eventType="valueChanged" id="598"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="525">
+                    <rect key="frame" x="91" y="765" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Damp">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="538">
+                    <rect key="frame" x="40" y="1036" width="35" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="551" customClass="UIKnob">
+                    <rect key="frame" x="91" y="709" width="54" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="595" customClass="UIKnob">
+                    <rect key="frame" x="160" y="709" width="54" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="599">
+                    <rect key="frame" x="232" y="765" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Mix">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="600" customClass="UIKnob">
+                    <rect key="frame" x="230" y="709" width="54" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="603" customClass="UIKnob">
+                    <rect key="frame" x="615" y="38" width="45" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="604">
+                    <rect key="frame" x="668" y="50" width="93" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Volume">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Vmr-1Q-Lqu">
+                    <rect key="frame" x="20" y="277" width="215" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Harmonics">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="25" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6u2-Cw-38e">
+                    <rect key="frame" x="161" y="765" width="50" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Dense">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="otp-F3-5t6">
+                    <rect key="frame" x="20" y="672" width="215" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Reverb">
+                            <attributes>
+                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <font key="NSFont" size="25" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.91083604097366333" green="0.84861826674439611" blue="0.86709973177582877" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+        </view>
+        <customObject id="477" customClass="UIKnob"/>
+    </objects>
+</document>

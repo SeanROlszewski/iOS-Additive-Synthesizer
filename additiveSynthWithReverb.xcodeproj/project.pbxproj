@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56E3181681852B00DEB8D8 /* CachedKnob.m */; };
+		9D56EA9A1677E289007AB0D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA991677E289007AB0D7 /* UIKit.framework */; };
+		9D56EA9C1677E289007AB0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA9B1677E289007AB0D7 /* Foundation.framework */; };
+		9D56EA9E1677E289007AB0D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA9D1677E289007AB0D7 /* CoreGraphics.framework */; };
+		9D56EAA41677E289007AB0D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAA21677E289007AB0D7 /* InfoPlist.strings */; };
+		9D56EAA61677E289007AB0D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAA51677E289007AB0D7 /* main.m */; };
+		9D56EAAA1677E289007AB0D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAA91677E289007AB0D7 /* AppDelegate.m */; };
+		9D56EAAC1677E289007AB0D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAAB1677E289007AB0D7 /* Default.png */; };
+		9D56EAAE1677E289007AB0D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAAD1677E289007AB0D7 /* Default@2x.png */; };
+		9D56EAB01677E289007AB0D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAAF1677E289007AB0D7 /* Default-568h@2x.png */; };
+		9D56EAB31677E289007AB0D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAB21677E289007AB0D7 /* ViewController.m */; };
+		9D56EAB61677E289007AB0D7 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAB41677E289007AB0D7 /* MainView.xib */; };
+		9D56EAF11677E29A007AB0D7 /* CsoundObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EABF1677E29A007AB0D7 /* CsoundObj.m */; };
+		9D56EAF21677E29A007AB0D7 /* CsoundMIDI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAC21677E29A007AB0D7 /* CsoundMIDI.m */; };
+		9D56EAF31677E29A007AB0D7 /* MidiWidgetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAC41677E29A007AB0D7 /* MidiWidgetsManager.m */; };
+		9D56EAF41677E29A007AB0D7 /* SliderMidiWidgetWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAC71677E29A007AB0D7 /* SliderMidiWidgetWrapper.m */; };
+		9D56EAF51677E29A007AB0D7 /* BaseValueCacheable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EACA1677E29A007AB0D7 /* BaseValueCacheable.m */; };
+		9D56EAF61677E29A007AB0D7 /* CachedAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EACC1677E29A007AB0D7 /* CachedAccelerometer.m */; };
+		9D56EAF71677E29A007AB0D7 /* CachedAttitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EACE1677E29A007AB0D7 /* CachedAttitude.m */; };
+		9D56EAF81677E29A007AB0D7 /* CachedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAD01677E29A007AB0D7 /* CachedButton.m */; };
+		9D56EAF91677E29A007AB0D7 /* CachedGyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAD21677E29A007AB0D7 /* CachedGyroscope.m */; };
+		9D56EAFA1677E29A007AB0D7 /* CachedSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAD41677E29A007AB0D7 /* CachedSlider.m */; };
+		9D56EAFB1677E29A007AB0D7 /* CachedSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EAD61677E29A007AB0D7 /* CachedSwitch.m */; };
+		9D56EAFC1677E29A007AB0D7 /* libcsound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EAEE1677E29A007AB0D7 /* libcsound.a */; };
+		9D56EAFD1677E29A007AB0D7 /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EAEF1677E29A007AB0D7 /* libsndfile.a */; };
+		9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAF01677E29A007AB0D7 /* LICENSE.TXT */; };
+		9D56EB011677E32C007AB0D7 /* UIKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EB001677E32C007AB0D7 /* UIKnob.m */; };
+		9D56EB051677E359007AB0D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB021677E359007AB0D7 /* AudioToolbox.framework */; };
+		9D56EB061677E359007AB0D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB031677E359007AB0D7 /* AVFoundation.framework */; };
+		9D56EB071677E359007AB0D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB041677E359007AB0D7 /* CoreAudio.framework */; };
+		9D56EB091677E391007AB0D7 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB081677E391007AB0D7 /* CoreMIDI.framework */; };
+		9D56EB0B1677E3A0007AB0D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB0A1677E3A0007AB0D7 /* CoreMotion.framework */; };
+		9DBA7D3816791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D56E3181681852B00DEB8D8 /* CachedKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedKnob.m; sourceTree = "<group>"; };
+		9D56E31B1681855400DEB8D8 /* CachedKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedKnob.h; sourceTree = "<group>"; };
+		9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = additiveSynthWithReverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D56EA991677E289007AB0D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D56EA9B1677E289007AB0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D56EA9D1677E289007AB0D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D56EAA11677E289007AB0D7 /* additiveSynthWithReverb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "additiveSynthWithReverb-Info.plist"; sourceTree = "<group>"; };
+		9D56EAA31677E289007AB0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D56EAA51677E289007AB0D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D56EAA71677E289007AB0D7 /* additiveSynthWithReverb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "additiveSynthWithReverb-Prefix.pch"; sourceTree = "<group>"; };
+		9D56EAA81677E289007AB0D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D56EAA91677E289007AB0D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D56EAAB1677E289007AB0D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9D56EAAD1677E289007AB0D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9D56EAAF1677E289007AB0D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9D56EAB11677E289007AB0D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D56EAB21677E289007AB0D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D56EAB51677E289007AB0D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainView.xib; sourceTree = "<group>"; };
+		9D56EABE1677E29A007AB0D7 /* CsoundObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundObj.h; sourceTree = "<group>"; };
+		9D56EABF1677E29A007AB0D7 /* CsoundObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsoundObj.m; sourceTree = "<group>"; };
+		9D56EAC11677E29A007AB0D7 /* CsoundMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundMIDI.h; sourceTree = "<group>"; };
+		9D56EAC21677E29A007AB0D7 /* CsoundMIDI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CsoundMIDI.m; sourceTree = "<group>"; };
+		9D56EAC31677E29A007AB0D7 /* MidiWidgetsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiWidgetsManager.h; sourceTree = "<group>"; };
+		9D56EAC41677E29A007AB0D7 /* MidiWidgetsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiWidgetsManager.m; sourceTree = "<group>"; };
+		9D56EAC51677E29A007AB0D7 /* MidiWidgetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiWidgetWrapper.h; sourceTree = "<group>"; };
+		9D56EAC61677E29A007AB0D7 /* SliderMidiWidgetWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderMidiWidgetWrapper.h; sourceTree = "<group>"; };
+		9D56EAC71677E29A007AB0D7 /* SliderMidiWidgetWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderMidiWidgetWrapper.m; sourceTree = "<group>"; };
+		9D56EAC91677E29A007AB0D7 /* BaseValueCacheable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseValueCacheable.h; sourceTree = "<group>"; };
+		9D56EACA1677E29A007AB0D7 /* BaseValueCacheable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseValueCacheable.m; sourceTree = "<group>"; };
+		9D56EACB1677E29A007AB0D7 /* CachedAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedAccelerometer.h; sourceTree = "<group>"; };
+		9D56EACC1677E29A007AB0D7 /* CachedAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedAccelerometer.m; sourceTree = "<group>"; };
+		9D56EACD1677E29A007AB0D7 /* CachedAttitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedAttitude.h; sourceTree = "<group>"; };
+		9D56EACE1677E29A007AB0D7 /* CachedAttitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedAttitude.m; sourceTree = "<group>"; };
+		9D56EACF1677E29A007AB0D7 /* CachedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedButton.h; sourceTree = "<group>"; };
+		9D56EAD01677E29A007AB0D7 /* CachedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedButton.m; sourceTree = "<group>"; };
+		9D56EAD11677E29A007AB0D7 /* CachedGyroscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedGyroscope.h; sourceTree = "<group>"; };
+		9D56EAD21677E29A007AB0D7 /* CachedGyroscope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedGyroscope.m; sourceTree = "<group>"; };
+		9D56EAD31677E29A007AB0D7 /* CachedSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedSlider.h; sourceTree = "<group>"; };
+		9D56EAD41677E29A007AB0D7 /* CachedSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedSlider.m; sourceTree = "<group>"; };
+		9D56EAD51677E29A007AB0D7 /* CachedSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedSwitch.h; sourceTree = "<group>"; };
+		9D56EAD61677E29A007AB0D7 /* CachedSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedSwitch.m; sourceTree = "<group>"; };
+		9D56EAD71677E29A007AB0D7 /* CsoundValueCacheable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsoundValueCacheable.h; sourceTree = "<group>"; };
+		9D56EAD91677E29A007AB0D7 /* cfgvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cfgvar.h; sourceTree = "<group>"; };
+		9D56EADA1677E29A007AB0D7 /* CppSound.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CppSound.hpp; sourceTree = "<group>"; };
+		9D56EADB1677E29A007AB0D7 /* cscore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cscore.h; sourceTree = "<group>"; };
+		9D56EADC1677E29A007AB0D7 /* csdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csdl.h; sourceTree = "<group>"; };
+		9D56EADD1677E29A007AB0D7 /* csound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csound.h; sourceTree = "<group>"; };
+		9D56EADE1677E29A007AB0D7 /* csound.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = csound.hpp; sourceTree = "<group>"; };
+		9D56EADF1677E29A007AB0D7 /* csoundCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csoundCore.h; sourceTree = "<group>"; };
+		9D56EAE01677E29A007AB0D7 /* CsoundFile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CsoundFile.hpp; sourceTree = "<group>"; };
+		9D56EAE11677E29A007AB0D7 /* cwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cwindow.h; sourceTree = "<group>"; };
+		9D56EAE21677E29A007AB0D7 /* filebuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filebuilding.h; sourceTree = "<group>"; };
+		9D56EAE31677E29A007AB0D7 /* float-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "float-version.h"; sourceTree = "<group>"; };
+		9D56EAE41677E29A007AB0D7 /* interlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interlocks.h; sourceTree = "<group>"; };
+		9D56EAE51677E29A007AB0D7 /* msg_attr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msg_attr.h; sourceTree = "<group>"; };
+		9D56EAE61677E29A007AB0D7 /* OpcodeBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OpcodeBase.hpp; sourceTree = "<group>"; };
+		9D56EAE71677E29A007AB0D7 /* pstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pstream.h; sourceTree = "<group>"; };
+		9D56EAE81677E29A007AB0D7 /* pvfileio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pvfileio.h; sourceTree = "<group>"; };
+		9D56EAE91677E29A007AB0D7 /* soundio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundio.h; sourceTree = "<group>"; };
+		9D56EAEA1677E29A007AB0D7 /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		9D56EAEB1677E29A007AB0D7 /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		9D56EAEC1677E29A007AB0D7 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		9D56EAEE1677E29A007AB0D7 /* libcsound.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcsound.a; sourceTree = "<group>"; };
+		9D56EAEF1677E29A007AB0D7 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsndfile.a; sourceTree = "<group>"; };
+		9D56EAF01677E29A007AB0D7 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
+		9D56EAFF1677E32C007AB0D7 /* UIKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIKnob.h; path = ../../UIKnob.h; sourceTree = "<group>"; };
+		9D56EB001677E32C007AB0D7 /* UIKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIKnob.m; path = ../../UIKnob.m; sourceTree = "<group>"; };
+		9D56EB021677E359007AB0D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9D56EB031677E359007AB0D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D56EB041677E359007AB0D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		9D56EB081677E391007AB0D7 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		9D56EB0A1677E3A0007AB0D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AdditiveSynthesizerWithReverb.csd; path = ../AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; wrapsLines = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D56EA921677E289007AB0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D56EB0B1677E3A0007AB0D7 /* CoreMotion.framework in Frameworks */,
+				9D56EB091677E391007AB0D7 /* CoreMIDI.framework in Frameworks */,
+				9D56EB051677E359007AB0D7 /* AudioToolbox.framework in Frameworks */,
+				9D56EB061677E359007AB0D7 /* AVFoundation.framework in Frameworks */,
+				9D56EB071677E359007AB0D7 /* CoreAudio.framework in Frameworks */,
+				9D56EA9A1677E289007AB0D7 /* UIKit.framework in Frameworks */,
+				9D56EA9C1677E289007AB0D7 /* Foundation.framework in Frameworks */,
+				9D56EA9E1677E289007AB0D7 /* CoreGraphics.framework in Frameworks */,
+				9D56EAFC1677E29A007AB0D7 /* libcsound.a in Frameworks */,
+				9D56EAFD1677E29A007AB0D7 /* libsndfile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D56EA8A1677E289007AB0D7 = {
+			isa = PBXGroup;
+			children = (
+				9D56EA9F1677E289007AB0D7 /* src */,
+				9DA52AB3198A05CE00D32254 /* Dependencies */,
+				9D56EA981677E289007AB0D7 /* Frameworks */,
+				9D56EA961677E289007AB0D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D56EA961677E289007AB0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D56EA981677E289007AB0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EB0A1677E3A0007AB0D7 /* CoreMotion.framework */,
+				9D56EB081677E391007AB0D7 /* CoreMIDI.framework */,
+				9D56EB021677E359007AB0D7 /* AudioToolbox.framework */,
+				9D56EB031677E359007AB0D7 /* AVFoundation.framework */,
+				9D56EB041677E359007AB0D7 /* CoreAudio.framework */,
+				9D56EA991677E289007AB0D7 /* UIKit.framework */,
+				9D56EA9B1677E289007AB0D7 /* Foundation.framework */,
+				9D56EA9D1677E289007AB0D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D56EA9F1677E289007AB0D7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */,
+				9D56EAA81677E289007AB0D7 /* AppDelegate.h */,
+				9D56EAA91677E289007AB0D7 /* AppDelegate.m */,
+				9D56EAB11677E289007AB0D7 /* ViewController.h */,
+				9D56EAB21677E289007AB0D7 /* ViewController.m */,
+				9DA52AB4198A05F600D32254 /* xibs */,
+				9D56EAA01677E289007AB0D7 /* Supporting Files */,
+			);
+			name = src;
+			path = csoundExample;
+			sourceTree = "<group>";
+		};
+		9D56EAA01677E289007AB0D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAA11677E289007AB0D7 /* additiveSynthWithReverb-Info.plist */,
+				9D56EAA21677E289007AB0D7 /* InfoPlist.strings */,
+				9D56EAA51677E289007AB0D7 /* main.m */,
+				9D56EAA71677E289007AB0D7 /* additiveSynthWithReverb-Prefix.pch */,
+				9D56EAAB1677E289007AB0D7 /* Default.png */,
+				9D56EAAD1677E289007AB0D7 /* Default@2x.png */,
+				9D56EAAF1677E289007AB0D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D56EABC1677E29A007AB0D7 /* csound-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EABD1677E29A007AB0D7 /* classes */,
+				9D56EAD81677E29A007AB0D7 /* headers */,
+				9D56EAED1677E29A007AB0D7 /* libs */,
+				9D56EAF01677E29A007AB0D7 /* LICENSE.TXT */,
+			);
+			name = "csound-iOS";
+			sourceTree = "<group>";
+		};
+		9D56EABD1677E29A007AB0D7 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAFF1677E32C007AB0D7 /* UIKnob.h */,
+				9D56EB001677E32C007AB0D7 /* UIKnob.m */,
+				9D56EABE1677E29A007AB0D7 /* CsoundObj.h */,
+				9D56EABF1677E29A007AB0D7 /* CsoundObj.m */,
+				9D56EAC01677E29A007AB0D7 /* midi */,
+				9D56EAC81677E29A007AB0D7 /* valueCacheable */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9D56EAC01677E29A007AB0D7 /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAC11677E29A007AB0D7 /* CsoundMIDI.h */,
+				9D56EAC21677E29A007AB0D7 /* CsoundMIDI.m */,
+				9D56EAC31677E29A007AB0D7 /* MidiWidgetsManager.h */,
+				9D56EAC41677E29A007AB0D7 /* MidiWidgetsManager.m */,
+				9D56EAC51677E29A007AB0D7 /* MidiWidgetWrapper.h */,
+				9D56EAC61677E29A007AB0D7 /* SliderMidiWidgetWrapper.h */,
+				9D56EAC71677E29A007AB0D7 /* SliderMidiWidgetWrapper.m */,
+			);
+			path = midi;
+			sourceTree = "<group>";
+		};
+		9D56EAC81677E29A007AB0D7 /* valueCacheable */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAC91677E29A007AB0D7 /* BaseValueCacheable.h */,
+				9D56EACA1677E29A007AB0D7 /* BaseValueCacheable.m */,
+				9D56EACB1677E29A007AB0D7 /* CachedAccelerometer.h */,
+				9D56EACC1677E29A007AB0D7 /* CachedAccelerometer.m */,
+				9D56EACD1677E29A007AB0D7 /* CachedAttitude.h */,
+				9D56EACE1677E29A007AB0D7 /* CachedAttitude.m */,
+				9D56EACF1677E29A007AB0D7 /* CachedButton.h */,
+				9D56EAD01677E29A007AB0D7 /* CachedButton.m */,
+				9D56EAD11677E29A007AB0D7 /* CachedGyroscope.h */,
+				9D56EAD21677E29A007AB0D7 /* CachedGyroscope.m */,
+				9D56EAD31677E29A007AB0D7 /* CachedSlider.h */,
+				9D56EAD41677E29A007AB0D7 /* CachedSlider.m */,
+				9D56E31B1681855400DEB8D8 /* CachedKnob.h */,
+				9D56E3181681852B00DEB8D8 /* CachedKnob.m */,
+				9D56EAD51677E29A007AB0D7 /* CachedSwitch.h */,
+				9D56EAD61677E29A007AB0D7 /* CachedSwitch.m */,
+				9D56EAD71677E29A007AB0D7 /* CsoundValueCacheable.h */,
+			);
+			path = valueCacheable;
+			sourceTree = "<group>";
+		};
+		9D56EAD81677E29A007AB0D7 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAD91677E29A007AB0D7 /* cfgvar.h */,
+				9D56EADA1677E29A007AB0D7 /* CppSound.hpp */,
+				9D56EADB1677E29A007AB0D7 /* cscore.h */,
+				9D56EADC1677E29A007AB0D7 /* csdl.h */,
+				9D56EADD1677E29A007AB0D7 /* csound.h */,
+				9D56EADE1677E29A007AB0D7 /* csound.hpp */,
+				9D56EADF1677E29A007AB0D7 /* csoundCore.h */,
+				9D56EAE01677E29A007AB0D7 /* CsoundFile.hpp */,
+				9D56EAE11677E29A007AB0D7 /* cwindow.h */,
+				9D56EAE21677E29A007AB0D7 /* filebuilding.h */,
+				9D56EAE31677E29A007AB0D7 /* float-version.h */,
+				9D56EAE41677E29A007AB0D7 /* interlocks.h */,
+				9D56EAE51677E29A007AB0D7 /* msg_attr.h */,
+				9D56EAE61677E29A007AB0D7 /* OpcodeBase.hpp */,
+				9D56EAE71677E29A007AB0D7 /* pstream.h */,
+				9D56EAE81677E29A007AB0D7 /* pvfileio.h */,
+				9D56EAE91677E29A007AB0D7 /* soundio.h */,
+				9D56EAEA1677E29A007AB0D7 /* sysdep.h */,
+				9D56EAEB1677E29A007AB0D7 /* text.h */,
+				9D56EAEC1677E29A007AB0D7 /* version.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		9D56EAED1677E29A007AB0D7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAEE1677E29A007AB0D7 /* libcsound.a */,
+				9D56EAEF1677E29A007AB0D7 /* libsndfile.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		9DA52AB3198A05CE00D32254 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EABC1677E29A007AB0D7 /* csound-iOS */,
+			);
+			name = Dependencies;
+			path = "csound-iOS";
+			sourceTree = "<group>";
+		};
+		9DA52AB4198A05F600D32254 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EAB41677E289007AB0D7 /* MainView.xib */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D56EA941677E289007AB0D7 /* additiveSynthWithReverb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D56EAB91677E289007AB0D7 /* Build configuration list for PBXNativeTarget "additiveSynthWithReverb" */;
+			buildPhases = (
+				9D56EA911677E289007AB0D7 /* Sources */,
+				9D56EA921677E289007AB0D7 /* Frameworks */,
+				9D56EA931677E289007AB0D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = additiveSynthWithReverb;
+			productName = csoundExample;
+			productReference = 9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D56EA8C1677E289007AB0D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sean Olszewski";
+			};
+			buildConfigurationList = 9D56EA8F1677E289007AB0D7 /* Build configuration list for PBXProject "additiveSynthWithReverb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D56EA8A1677E289007AB0D7;
+			productRefGroup = 9D56EA961677E289007AB0D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D56EA941677E289007AB0D7 /* additiveSynthWithReverb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D56EA931677E289007AB0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D56EAA41677E289007AB0D7 /* InfoPlist.strings in Resources */,
+				9D56EAAC1677E289007AB0D7 /* Default.png in Resources */,
+				9D56EAAE1677E289007AB0D7 /* Default@2x.png in Resources */,
+				9D56EAB01677E289007AB0D7 /* Default-568h@2x.png in Resources */,
+				9D56EAB61677E289007AB0D7 /* MainView.xib in Resources */,
+				9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */,
+				9DBA7D3816791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D56EA911677E289007AB0D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D56EAA61677E289007AB0D7 /* main.m in Sources */,
+				9D56EAAA1677E289007AB0D7 /* AppDelegate.m in Sources */,
+				9D56EAB31677E289007AB0D7 /* ViewController.m in Sources */,
+				9D56EAF11677E29A007AB0D7 /* CsoundObj.m in Sources */,
+				9D56EAF21677E29A007AB0D7 /* CsoundMIDI.m in Sources */,
+				9D56EAF31677E29A007AB0D7 /* MidiWidgetsManager.m in Sources */,
+				9D56EAF41677E29A007AB0D7 /* SliderMidiWidgetWrapper.m in Sources */,
+				9D56EAF51677E29A007AB0D7 /* BaseValueCacheable.m in Sources */,
+				9D56EAF61677E29A007AB0D7 /* CachedAccelerometer.m in Sources */,
+				9D56EAF71677E29A007AB0D7 /* CachedAttitude.m in Sources */,
+				9D56EAF81677E29A007AB0D7 /* CachedButton.m in Sources */,
+				9D56EAF91677E29A007AB0D7 /* CachedGyroscope.m in Sources */,
+				9D56EAFA1677E29A007AB0D7 /* CachedSlider.m in Sources */,
+				9D56EAFB1677E29A007AB0D7 /* CachedSwitch.m in Sources */,
+				9D56EB011677E32C007AB0D7 /* UIKnob.m in Sources */,
+				9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D56EAA21677E289007AB0D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D56EAA31677E289007AB0D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D56EAB41677E289007AB0D7 /* MainView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D56EAB51677E289007AB0D7 /* en */,
+			);
+			name = MainView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D56EAB71677E289007AB0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9D56EAB81677E289007AB0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D56EABA1677E289007AB0D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csoundExample/additiveSynthWithReverb-Prefix.pch";
+				INFOPLIST_FILE = "csoundExample/additiveSynthWithReverb-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/csound-iOS/libs\"",
+				);
+				PRODUCT_NAME = additiveSynthWithReverb;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D56EABB1677E289007AB0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csoundExample/additiveSynthWithReverb-Prefix.pch";
+				INFOPLIST_FILE = "csoundExample/additiveSynthWithReverb-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/csound-iOS/libs\"",
+				);
+				PRODUCT_NAME = additiveSynthWithReverb;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D56EA8F1677E289007AB0D7 /* Build configuration list for PBXProject "additiveSynthWithReverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D56EAB71677E289007AB0D7 /* Debug */,
+				9D56EAB81677E289007AB0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D56EAB91677E289007AB0D7 /* Build configuration list for PBXNativeTarget "additiveSynthWithReverb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D56EABA1677E289007AB0D7 /* Debug */,
+				9D56EABB1677E289007AB0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D56EA8C1677E289007AB0D7 /* Project object */;
+}
