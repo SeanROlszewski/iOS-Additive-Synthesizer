@@ -111,7 +111,7 @@
         [self.csoundInstance sendScoreEvent: 'i'
                              withPFieldValues: turnOnPValues
                              forNumberPFields: 4]; // P-Fields = function arguments.
-    } else if(!toggle.isOn) {
+    } else {
         [self.csoundInstance sendScoreEvent: 'i'
                              withPFieldValues: turnOffPValues
                              forNumberPFields: 4];
