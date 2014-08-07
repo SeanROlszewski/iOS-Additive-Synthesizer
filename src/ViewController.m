@@ -102,8 +102,8 @@
 }
 
 - (IBAction) toggleReverb: (UISwitch *)toggle {
-    const float turnOnPValues[] = {001.0, 0.0, 1, 020.0};
-	const float turnOffPValues[] = {002.0, 0.0, 1, 020.0};
+    float turnOnPValues[] = {001.0, 0.0, 1, 020.0};
+	float turnOffPValues[] = {002.0, 0.0, 1, 020.0};
 	
 	// Csound uses a messaging system called score events
 	// to cause real-time changes to the sound.
