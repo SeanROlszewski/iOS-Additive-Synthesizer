@@ -31,14 +31,13 @@
 		9D56EB071677E359007AB0D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB041677E359007AB0D7 /* CoreAudio.framework */; };
 		9D56EB091677E391007AB0D7 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB081677E391007AB0D7 /* CoreMIDI.framework */; };
 		9D56EB0B1677E3A0007AB0D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB0A1677E3A0007AB0D7 /* CoreMotion.framework */; };
-		9DB676CA19941C4A00DD4DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB676BE19941C4900DD4DBA /* AppDelegate.m */; };
-		9DB676CB19941C4A00DD4DBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB676BF19941C4900DD4DBA /* Default-568h@2x.png */; };
-		9DB676CC19941C4A00DD4DBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB676C019941C4900DD4DBA /* Default.png */; };
-		9DB676CD19941C4A00DD4DBA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB676C119941C4900DD4DBA /* Default@2x.png */; };
-		9DB676CF19941C4A00DD4DBA /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB676C419941C4A00DD4DBA /* MainView.xib */; };
-		9DB676D019941C4A00DD4DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB676C619941C4A00DD4DBA /* main.m */; };
-		9DB676D119941C4A00DD4DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB676C819941C4A00DD4DBA /* ViewController.m */; };
-		9DBA7D3816791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd in Resources */ = {isa = PBXBuildFile; fileRef = 9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */; };
+		9D76F9531999A75C00617312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F9471999A75C00617312 /* AppDelegate.m */; };
+		9D76F9541999A75C00617312 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F9481999A75C00617312 /* Default-568h@2x.png */; };
+		9D76F9551999A75C00617312 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F9491999A75C00617312 /* Default.png */; };
+		9D76F9561999A75C00617312 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F94A1999A75C00617312 /* Default@2x.png */; };
+		9D76F9581999A75C00617312 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F94D1999A75C00617312 /* MainView.xib */; };
+		9D76F9591999A75C00617312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F94F1999A75C00617312 /* main.m */; };
+		9D76F95A1999A75C00617312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F9511999A75C00617312 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,19 +101,18 @@
 		9D56EB041677E359007AB0D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		9D56EB081677E391007AB0D7 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		9D56EB0A1677E3A0007AB0D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		9DB676BB19941C4900DD4DBA /* additiveSynthWithReverb-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "additiveSynthWithReverb-Info.plist"; path = "../src/additiveSynthWithReverb-Info.plist"; sourceTree = "<group>"; };
-		9DB676BC19941C4900DD4DBA /* additiveSynthWithReverb-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "additiveSynthWithReverb-Prefix.pch"; path = "../src/additiveSynthWithReverb-Prefix.pch"; sourceTree = "<group>"; };
-		9DB676BD19941C4900DD4DBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../src/AppDelegate.h; sourceTree = "<group>"; };
-		9DB676BE19941C4900DD4DBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../src/AppDelegate.m; sourceTree = "<group>"; };
-		9DB676BF19941C4900DD4DBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../src/Default-568h@2x.png"; sourceTree = "<group>"; };
-		9DB676C019941C4900DD4DBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../src/Default.png; sourceTree = "<group>"; };
-		9DB676C119941C4900DD4DBA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../src/Default@2x.png"; sourceTree = "<group>"; };
-		9DB676C319941C4900DD4DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9DB676C519941C4A00DD4DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainView.xib; sourceTree = "<group>"; };
-		9DB676C619941C4A00DD4DBA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../src/main.m; sourceTree = "<group>"; };
-		9DB676C719941C4A00DD4DBA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../src/ViewController.h; sourceTree = "<group>"; };
-		9DB676C819941C4A00DD4DBA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../src/ViewController.m; sourceTree = "<group>"; };
-		9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AdditiveSynthesizerWithReverb.csd; path = ../AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; wrapsLines = 0; };
+		9D76F9441999A75C00617312 /* additiveSynthWithReverb-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "additiveSynthWithReverb-Info.plist"; sourceTree = "<group>"; };
+		9D76F9451999A75C00617312 /* additiveSynthWithReverb-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "additiveSynthWithReverb-Prefix.pch"; sourceTree = "<group>"; };
+		9D76F9461999A75C00617312 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D76F9471999A75C00617312 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D76F9481999A75C00617312 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9D76F9491999A75C00617312 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9D76F94A1999A75C00617312 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9D76F94C1999A75C00617312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D76F94E1999A75C00617312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainView.xib; sourceTree = "<group>"; };
+		9D76F94F1999A75C00617312 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D76F9501999A75C00617312 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D76F9511999A75C00617312 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +139,7 @@
 		9D56EA8A1677E289007AB0D7 = {
 			isa = PBXGroup;
 			children = (
-				9D56EA9F1677E289007AB0D7 /* src */,
+				9D76F9431999A75C00617312 /* src */,
 				9DA52AB3198A05CE00D32254 /* Dependencies */,
 				9D56EA981677E289007AB0D7 /* Frameworks */,
 				9D56EA961677E289007AB0D7 /* Products */,
@@ -169,35 +167,6 @@
 				9D56EA9D1677E289007AB0D7 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9D56EA9F1677E289007AB0D7 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				9DBA7D3716791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd */,
-				9DB676BD19941C4900DD4DBA /* AppDelegate.h */,
-				9DB676BE19941C4900DD4DBA /* AppDelegate.m */,
-				9DB676C719941C4A00DD4DBA /* ViewController.h */,
-				9DB676C819941C4A00DD4DBA /* ViewController.m */,
-				9DA52AB4198A05F600D32254 /* xibs */,
-				9D56EAA01677E289007AB0D7 /* Supporting Files */,
-			);
-			name = src;
-			path = csoundExample;
-			sourceTree = "<group>";
-		};
-		9D56EAA01677E289007AB0D7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9DB676C619941C4A00DD4DBA /* main.m */,
-				9DB676BC19941C4900DD4DBA /* additiveSynthWithReverb-Prefix.pch */,
-				9DB676BF19941C4900DD4DBA /* Default-568h@2x.png */,
-				9DB676C019941C4900DD4DBA /* Default.png */,
-				9DB676C119941C4900DD4DBA /* Default@2x.png */,
-				9DB676C219941C4900DD4DBA /* InfoPlist.strings */,
-				9DB676BB19941C4900DD4DBA /* additiveSynthWithReverb-Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9D56EABC1677E29A007AB0D7 /* csound-iOS */ = {
@@ -298,6 +267,41 @@
 			path = libs;
 			sourceTree = "<group>";
 		};
+		9D76F9431999A75C00617312 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D76F94F1999A75C00617312 /* main.m */,
+				9D76F9461999A75C00617312 /* AppDelegate.h */,
+				9D76F9471999A75C00617312 /* AppDelegate.m */,
+				9D76F9501999A75C00617312 /* ViewController.h */,
+				9D76F9511999A75C00617312 /* ViewController.m */,
+				9D76F95B1999A76D00617312 /* Supporting Files */,
+				9D76F95C1999A78500617312 /* Views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9D76F95B1999A76D00617312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D76F9441999A75C00617312 /* additiveSynthWithReverb-Info.plist */,
+				9D76F9451999A75C00617312 /* additiveSynthWithReverb-Prefix.pch */,
+				9D76F9481999A75C00617312 /* Default-568h@2x.png */,
+				9D76F9491999A75C00617312 /* Default.png */,
+				9D76F94A1999A75C00617312 /* Default@2x.png */,
+				9D76F94B1999A75C00617312 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D76F95C1999A78500617312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D76F94D1999A75C00617312 /* MainView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9DA52AB3198A05CE00D32254 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,14 +309,6 @@
 			);
 			name = Dependencies;
 			path = "csound-iOS";
-			sourceTree = "<group>";
-		};
-		9DA52AB4198A05F600D32254 /* xibs */ = {
-			isa = PBXGroup;
-			children = (
-				9DB676C419941C4A00DD4DBA /* MainView.xib */,
-			);
-			name = xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,12 +362,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB676CB19941C4A00DD4DBA /* Default-568h@2x.png in Resources */,
-				9DB676CD19941C4A00DD4DBA /* Default@2x.png in Resources */,
-				9DB676CF19941C4A00DD4DBA /* MainView.xib in Resources */,
 				9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */,
-				9DBA7D3816791FFB00A30907 /* AdditiveSynthesizerWithReverb.csd in Resources */,
-				9DB676CC19941C4A00DD4DBA /* Default.png in Resources */,
+				9D76F9561999A75C00617312 /* Default@2x.png in Resources */,
+				9D76F9541999A75C00617312 /* Default-568h@2x.png in Resources */,
+				9D76F9581999A75C00617312 /* MainView.xib in Resources */,
+				9D76F9551999A75C00617312 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,16 +382,16 @@
 				9D56EAF31677E29A007AB0D7 /* MidiWidgetsManager.m in Sources */,
 				9D56EAF41677E29A007AB0D7 /* SliderMidiWidgetWrapper.m in Sources */,
 				9D56EAF51677E29A007AB0D7 /* BaseValueCacheable.m in Sources */,
-				9DB676D119941C4A00DD4DBA /* ViewController.m in Sources */,
 				9D56EAF61677E29A007AB0D7 /* CachedAccelerometer.m in Sources */,
+				9D76F9531999A75C00617312 /* AppDelegate.m in Sources */,
 				9D56EAF71677E29A007AB0D7 /* CachedAttitude.m in Sources */,
 				9D56EAF81677E29A007AB0D7 /* CachedButton.m in Sources */,
 				9D56EAF91677E29A007AB0D7 /* CachedGyroscope.m in Sources */,
+				9D76F95A1999A75C00617312 /* ViewController.m in Sources */,
+				9D76F9591999A75C00617312 /* main.m in Sources */,
 				9D56EAFA1677E29A007AB0D7 /* CachedSlider.m in Sources */,
 				9D56EAFB1677E29A007AB0D7 /* CachedSwitch.m in Sources */,
-				9DB676CA19941C4A00DD4DBA /* AppDelegate.m in Sources */,
 				9D56EB011677E32C007AB0D7 /* UIKnob.m in Sources */,
-				9DB676D019941C4A00DD4DBA /* main.m in Sources */,
 				9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,22 +399,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DB676C219941C4900DD4DBA /* InfoPlist.strings */ = {
+		9D76F94B1999A75C00617312 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DB676C319941C4900DD4DBA /* en */,
+				9D76F94C1999A75C00617312 /* en */,
 			);
 			name = InfoPlist.strings;
-			path = ../src;
 			sourceTree = "<group>";
 		};
-		9DB676C419941C4A00DD4DBA /* MainView.xib */ = {
+		9D76F94D1999A75C00617312 /* MainView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9DB676C519941C4A00DD4DBA /* en */,
+				9D76F94E1999A75C00617312 /* en */,
 			);
 			name = MainView.xib;
-			path = ../src;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

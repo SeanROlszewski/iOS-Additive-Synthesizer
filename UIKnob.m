@@ -128,12 +128,12 @@
 	CGContextScaleCTM(context, 1.0, -1.0);
 	
     // Draw circle
-    CGFloat redComponents[] = {0.2f, 0.4f, 0.1f, 0.5f};
-	CGColorRef redColor = CGColorCreate(colorSpace, redComponents);
-	CGContextSetFillColorWithColor(context, redColor);
+    CGFloat colorComponents[] = {0.1f, 0.1f, 0.1f, 0.2f};
+	CGColorRef color = CGColorCreate(colorSpace, colorComponents);
+	CGContextSetFillColorWithColor(context, color);
     CGContextAddEllipseInRect(context, rect);
     CGContextFillEllipseInRect(context, rect);
-    CGColorRelease(redColor);
+    CGColorRelease(color);
         
     // Draw line
     CGContextMoveToPoint(context, rect.size.width/4.0f, rect.size.height/4.0f);

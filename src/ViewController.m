@@ -32,7 +32,7 @@
 - (void)initializeKnobProperties {
     masterGain.minimumValue = 0.0f;
     masterGain.maximumValue = 3.0f;
-    masterGain.value        = 0.5f;
+    masterGain.value = 0.5f;
     
     reverbDamping.minimumValue = 250.0f;
     reverbDamping.maximumValue = 5000.0f;
@@ -40,11 +40,11 @@
     
     reverbDensity.minimumValue = 0.0f;
     reverbDensity.maximumValue = 1.0f;
-    reverbDensity.value        = 0.5f;
+    reverbDensity.value = 0.5f;
     
-    reverbMix.minimumValue     = 0.0f;
-    reverbMix.maximumValue     = 1.0f;
-    reverbMix.value            = 0.5f;
+    reverbMix.minimumValue = 0.0f;
+    reverbMix.maximumValue = 1.0f;
+    reverbMix.value = 0.5f;
 }
 
 - (void)initializeGlobalControls {
@@ -55,40 +55,40 @@
 -(void)initializeAdditiveSynthesizerControls {
 	[onOffSwitch setOn: NO animated: NO];
 	
-	[self.csoundInstance addSlider:      frequencySlider
-					forChannelName:      @"frequencySlider"];
-	[self.csoundInstance addSlider:      amplitudeSlider_0
-					forChannelName: 	 @"amplitudeSlider_0"];
-	[self.csoundInstance addSlider:      amplitudeSlider_1
-					forChannelName: 	 @"amplitudeSlider_1"];
-	[self.csoundInstance addSlider:      amplitudeSlider_2
-					forChannelName: 	 @"amplitudeSlider_2"];
-	[self.csoundInstance addSlider:      amplitudeSlider_3
-					forChannelName: 	 @"amplitudeSlider_3"];
-	[self.csoundInstance addSlider:      amplitudeSlider_4
-					forChannelName: 	 @"amplitudeSlider_4"];
-	[self.csoundInstance addSlider:      amplitudeSlider_5
-					forChannelName: 	 @"amplitudeSlider_5"];
-	[self.csoundInstance addSlider:      amplitudeSlider_6
-					forChannelName:	 	 @"amplitudeSlider_6"];
-	[self.csoundInstance addSlider:      amplitudeSlider_7
-					forChannelName: 	 @"amplitudeSlider_7"];
-	[self.csoundInstance addSlider:      amplitudeSlider_8
-					forChannelName: 	 @"amplitudeSlider_8"];
-	[self.csoundInstance addSlider:      amplitudeSlider_9
-					forChannelName: 	 @"amplitudeSlider_9"];
-	[self.csoundInstance addSlider:      amplitudeSlider_10
-					forChannelName: 	 @"amplitudeSlider_10"];
+	[self.csoundInstance addSlider: frequencySlider
+					forChannelName: @"frequencySlider"];
+	[self.csoundInstance addSlider: amplitudeSlider_0
+					forChannelName: @"amplitudeSlider_0"];
+	[self.csoundInstance addSlider: amplitudeSlider_1
+					forChannelName: @"amplitudeSlider_1"];
+	[self.csoundInstance addSlider: amplitudeSlider_2
+					forChannelName: @"amplitudeSlider_2"];
+	[self.csoundInstance addSlider: amplitudeSlider_3
+					forChannelName: @"amplitudeSlider_3"];
+	[self.csoundInstance addSlider: amplitudeSlider_4
+					forChannelName: @"amplitudeSlider_4"];
+	[self.csoundInstance addSlider: amplitudeSlider_5
+					forChannelName: @"amplitudeSlider_5"];
+	[self.csoundInstance addSlider: amplitudeSlider_6
+					forChannelName: @"amplitudeSlider_6"];
+	[self.csoundInstance addSlider: amplitudeSlider_7
+					forChannelName: @"amplitudeSlider_7"];
+	[self.csoundInstance addSlider: amplitudeSlider_8
+					forChannelName: @"amplitudeSlider_8"];
+	[self.csoundInstance addSlider: amplitudeSlider_9
+					forChannelName: @"amplitudeSlider_9"];
+	[self.csoundInstance addSlider: amplitudeSlider_10
+					forChannelName: @"amplitudeSlider_10"];
 }
 
 - (void)initializeReverbControls {
 	[reverbToggle setOn: NO animated: NO];
-    [self.csoundInstance addKnob:        reverbDamping
-				  forChannelName: 		 @"reverbFilterCutoff"];
-    [self.csoundInstance addKnob:        reverbDensity
-				  forChannelName: 		 @"reverbDensity"];
-    [self.csoundInstance addKnob:        reverbMix
-				  forChannelName: 	  	 @"reverbMix"];
+    [self.csoundInstance addKnob: reverbDamping
+				  forChannelName: @"reverbFilterCutoff"];
+    [self.csoundInstance addKnob: reverbDensity
+				  forChannelName: @"reverbDensity"];
+    [self.csoundInstance addKnob: reverbMix
+				  forChannelName: @"reverbMix"];
 }
 
 #pragma mark View Changing Methods
