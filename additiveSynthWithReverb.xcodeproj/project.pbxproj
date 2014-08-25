@@ -39,13 +39,14 @@
 		9D76F9581999A75C00617312 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F94D1999A75C00617312 /* MainView.xib */; };
 		9D76F9591999A75C00617312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F94F1999A75C00617312 /* main.m */; };
 		9D76F95A1999A75C00617312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F9511999A75C00617312 /* ViewController.m */; };
+		9DADAFFB19ABAA480016213E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DADAFFA19ABAA480016213E /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; };
+		9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AdditiveSynthesizerWithReverb.csd; path = ../AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; };
 		9D56E3181681852B00DEB8D8 /* CachedKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedKnob.m; sourceTree = "<group>"; };
 		9D56E31B1681855400DEB8D8 /* CachedKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedKnob.h; sourceTree = "<group>"; };
-		9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = additiveSynthWithReverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D56EA951677E289007AB0D7 /* Additive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D56EA991677E289007AB0D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9D56EA9B1677E289007AB0D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D56EA9D1677E289007AB0D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +116,7 @@
 		9D76F94F1999A75C00617312 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D76F9501999A75C00617312 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D76F9511999A75C00617312 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DADAFFA19ABAA480016213E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +143,6 @@
 		9D56EA8A1677E289007AB0D7 = {
 			isa = PBXGroup;
 			children = (
-				9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */,
 				9D76F9431999A75C00617312 /* src */,
 				9DA52AB3198A05CE00D32254 /* Dependencies */,
 				9D56EA981677E289007AB0D7 /* Frameworks */,
@@ -152,7 +153,7 @@
 		9D56EA961677E289007AB0D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */,
+				9D56EA951677E289007AB0D7 /* Additive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +274,7 @@
 		9D76F9431999A75C00617312 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */,
 				9D76F94F1999A75C00617312 /* main.m */,
 				9D76F9461999A75C00617312 /* AppDelegate.h */,
 				9D76F9471999A75C00617312 /* AppDelegate.m */,
@@ -287,6 +289,7 @@
 		9D76F95B1999A76D00617312 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9DADAFFA19ABAA480016213E /* icon.png */,
 				9D76F9441999A75C00617312 /* additiveSynthWithReverb-Info.plist */,
 				9D76F9451999A75C00617312 /* additiveSynthWithReverb-Prefix.pch */,
 				9D76F9481999A75C00617312 /* Default-568h@2x.png */,
@@ -331,7 +334,7 @@
 			);
 			name = additiveSynthWithReverb;
 			productName = csoundExample;
-			productReference = 9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */;
+			productReference = 9D56EA951677E289007AB0D7 /* Additive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -342,6 +345,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Sean Olszewski";
+				TargetAttributes = {
+					9D56EA941677E289007AB0D7 = {
+						DevelopmentTeam = 33B6U3Y2C3;
+					};
+				};
 			};
 			buildConfigurationList = 9D56EA8F1677E289007AB0D7 /* Build configuration list for PBXProject "additiveSynthWithReverb" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -366,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */,
+				9DADAFFB19ABAA480016213E /* icon.png in Resources */,
 				9D76F9561999A75C00617312 /* Default@2x.png in Resources */,
 				9D76F9541999A75C00617312 /* Default-568h@2x.png in Resources */,
 				9D54B90119AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd in Resources */,
@@ -430,6 +439,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Konopka (6XP4YL9ESF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -443,8 +453,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Additive;
+				PROVISIONING_PROFILE = "fbb57600-a8f7-47c5-a9d4-62035ba4d2d1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -458,14 +470,17 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Konopka (6XP4YL9ESF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Additive;
+				PROVISIONING_PROFILE = "fbb57600-a8f7-47c5-a9d4-62035ba4d2d1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -475,14 +490,20 @@
 		9D56EABA1677E289007AB0D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/additiveSynthWithReverb-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/src/additiveSynthWithReverb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/csound-iOS/libs\"",
 				);
-				PRODUCT_NAME = additiveSynthWithReverb;
+				PRODUCT_NAME = Additive;
+				PROVISIONING_PROFILE = "fbb57600-a8f7-47c5-a9d4-62035ba4d2d1";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -490,14 +511,20 @@
 		9D56EABB1677E289007AB0D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/additiveSynthWithReverb-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/src/additiveSynthWithReverb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/csound-iOS/libs\"",
 				);
-				PRODUCT_NAME = additiveSynthWithReverb;
+				PRODUCT_NAME = Additive;
+				PROVISIONING_PROFILE = "fbb57600-a8f7-47c5-a9d4-62035ba4d2d1";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
