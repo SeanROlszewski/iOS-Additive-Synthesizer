@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D54B90119AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd in Resources */ = {isa = PBXBuildFile; fileRef = 9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */; };
+		9D217F9F19ABACA7009F2C31 /* AdditiveSynthesizerWithReverb.csd in Resources */ = {isa = PBXBuildFile; fileRef = 9D217F9E19ABACA7009F2C31 /* AdditiveSynthesizerWithReverb.csd */; };
 		9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56E3181681852B00DEB8D8 /* CachedKnob.m */; };
 		9D56EA9A1677E289007AB0D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA991677E289007AB0D7 /* UIKit.framework */; };
 		9D56EA9C1677E289007AB0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA9B1677E289007AB0D7 /* Foundation.framework */; };
@@ -26,7 +26,6 @@
 		9D56EAFC1677E29A007AB0D7 /* libcsound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EAEE1677E29A007AB0D7 /* libcsound.a */; };
 		9D56EAFD1677E29A007AB0D7 /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EAEF1677E29A007AB0D7 /* libsndfile.a */; };
 		9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 9D56EAF01677E29A007AB0D7 /* LICENSE.TXT */; };
-		9D56EB011677E32C007AB0D7 /* UIKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56EB001677E32C007AB0D7 /* UIKnob.m */; };
 		9D56EB051677E359007AB0D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB021677E359007AB0D7 /* AudioToolbox.framework */; };
 		9D56EB061677E359007AB0D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB031677E359007AB0D7 /* AVFoundation.framework */; };
 		9D56EB071677E359007AB0D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EB041677E359007AB0D7 /* CoreAudio.framework */; };
@@ -39,11 +38,11 @@
 		9D76F9581999A75C00617312 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D76F94D1999A75C00617312 /* MainView.xib */; };
 		9D76F9591999A75C00617312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F94F1999A75C00617312 /* main.m */; };
 		9D76F95A1999A75C00617312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D76F9511999A75C00617312 /* ViewController.m */; };
-		9DADAFFB19ABAA480016213E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DADAFFA19ABAA480016213E /* icon.png */; };
+		9DC0E55519ABAC170043BEFC /* UIKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0E55419ABAC170043BEFC /* UIKnob.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AdditiveSynthesizerWithReverb.csd; path = ../AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; };
+		9D217F9E19ABACA7009F2C31 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; };
 		9D56E3181681852B00DEB8D8 /* CachedKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedKnob.m; sourceTree = "<group>"; };
 		9D56E31B1681855400DEB8D8 /* CachedKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedKnob.h; sourceTree = "<group>"; };
 		9D56EA951677E289007AB0D7 /* Additive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Additive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,8 +96,6 @@
 		9D56EAEE1677E29A007AB0D7 /* libcsound.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcsound.a; sourceTree = "<group>"; };
 		9D56EAEF1677E29A007AB0D7 /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsndfile.a; sourceTree = "<group>"; };
 		9D56EAF01677E29A007AB0D7 /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
-		9D56EAFF1677E32C007AB0D7 /* UIKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIKnob.h; path = ../../UIKnob.h; sourceTree = "<group>"; };
-		9D56EB001677E32C007AB0D7 /* UIKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIKnob.m; path = ../../UIKnob.m; sourceTree = "<group>"; };
 		9D56EB021677E359007AB0D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9D56EB031677E359007AB0D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9D56EB041677E359007AB0D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -117,6 +114,8 @@
 		9D76F9501999A75C00617312 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D76F9511999A75C00617312 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9DADAFFA19ABAA480016213E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		9DC0E55319ABAC170043BEFC /* UIKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKnob.h; sourceTree = "<group>"; };
+		9DC0E55419ABAC170043BEFC /* UIKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKnob.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +186,8 @@
 		9D56EABD1677E29A007AB0D7 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				9D56EAFF1677E32C007AB0D7 /* UIKnob.h */,
-				9D56EB001677E32C007AB0D7 /* UIKnob.m */,
+				9DC0E55319ABAC170043BEFC /* UIKnob.h */,
+				9DC0E55419ABAC170043BEFC /* UIKnob.m */,
 				9D56EABE1677E29A007AB0D7 /* CsoundObj.h */,
 				9D56EABF1677E29A007AB0D7 /* CsoundObj.m */,
 				9D56EAC01677E29A007AB0D7 /* midi */,
@@ -274,7 +273,7 @@
 		9D76F9431999A75C00617312 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */,
+				9D217F9E19ABACA7009F2C31 /* AdditiveSynthesizerWithReverb.csd */,
 				9D76F94F1999A75C00617312 /* main.m */,
 				9D76F9461999A75C00617312 /* AppDelegate.h */,
 				9D76F9471999A75C00617312 /* AppDelegate.m */,
@@ -374,10 +373,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */,
-				9DADAFFB19ABAA480016213E /* icon.png in Resources */,
 				9D76F9561999A75C00617312 /* Default@2x.png in Resources */,
 				9D76F9541999A75C00617312 /* Default-568h@2x.png in Resources */,
-				9D54B90119AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd in Resources */,
+				9D217F9F19ABACA7009F2C31 /* AdditiveSynthesizerWithReverb.csd in Resources */,
 				9D76F9581999A75C00617312 /* MainView.xib in Resources */,
 				9D76F9551999A75C00617312 /* Default.png in Resources */,
 			);
@@ -401,10 +399,10 @@
 				9D56EAF81677E29A007AB0D7 /* CachedButton.m in Sources */,
 				9D56EAF91677E29A007AB0D7 /* CachedGyroscope.m in Sources */,
 				9D76F95A1999A75C00617312 /* ViewController.m in Sources */,
+				9DC0E55519ABAC170043BEFC /* UIKnob.m in Sources */,
 				9D76F9591999A75C00617312 /* main.m in Sources */,
 				9D56EAFA1677E29A007AB0D7 /* CachedSlider.m in Sources */,
 				9D56EAFB1677E29A007AB0D7 /* CachedSwitch.m in Sources */,
-				9D56EB011677E32C007AB0D7 /* UIKnob.m in Sources */,
 				9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
