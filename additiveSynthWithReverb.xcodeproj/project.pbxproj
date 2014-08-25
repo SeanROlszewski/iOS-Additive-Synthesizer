@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D54B90119AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd in Resources */ = {isa = PBXBuildFile; fileRef = 9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */; };
 		9D56E3191681852B00DEB8D8 /* CachedKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D56E3181681852B00DEB8D8 /* CachedKnob.m */; };
 		9D56EA9A1677E289007AB0D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA991677E289007AB0D7 /* UIKit.framework */; };
 		9D56EA9C1677E289007AB0D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EA9B1677E289007AB0D7 /* Foundation.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdditiveSynthesizerWithReverb.csd; sourceTree = "<group>"; };
 		9D56E3181681852B00DEB8D8 /* CachedKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedKnob.m; sourceTree = "<group>"; };
 		9D56E31B1681855400DEB8D8 /* CachedKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedKnob.h; sourceTree = "<group>"; };
 		9D56EA951677E289007AB0D7 /* additiveSynthWithReverb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = additiveSynthWithReverb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 		9D56EA8A1677E289007AB0D7 = {
 			isa = PBXGroup;
 			children = (
+				9D54B90019AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd */,
 				9D76F9431999A75C00617312 /* src */,
 				9DA52AB3198A05CE00D32254 /* Dependencies */,
 				9D56EA981677E289007AB0D7 /* Frameworks */,
@@ -365,6 +368,7 @@
 				9D56EAFE1677E29A007AB0D7 /* LICENSE.TXT in Resources */,
 				9D76F9561999A75C00617312 /* Default@2x.png in Resources */,
 				9D76F9541999A75C00617312 /* Default-568h@2x.png in Resources */,
+				9D54B90119AAF7C7002E3A90 /* AdditiveSynthesizerWithReverb.csd in Resources */,
 				9D76F9581999A75C00617312 /* MainView.xib in Resources */,
 				9D76F9551999A75C00617312 /* Default.png in Resources */,
 			);
