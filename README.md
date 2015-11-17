@@ -1,7 +1,7 @@
 iOS Additive Synthesizer
 ========================
 
-An additive synthesizer implemented in Objective-C and CSound. This was used to demonstrate the Csound for iOS API for the Audio Programming in C/C++/Obj-C class at Berklee College of Music. 
+An additive synthesizer implemented in Objective-C and CSound for iOS 6. 
 
 ![Screen Shot](http://i.imgur.com/2L5hkK5.png)
 
